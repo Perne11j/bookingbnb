@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: black;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.slideshow-container {
+    max-width: 3000px;
+    /* height: 1500px; */
+
+   
+}
+
+h1{
+    color:red;
+    position: absolute;
+    font-size: 50px;
+    top: 600px;
+}
+
+  /* The dots/bullets/indicators */
+/* .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  } */
+/* 
+  .active {
+    background-color: #717171;
+  } */
+
+  /* .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  } */
+
+  .button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top: -20rem;
+  }
+
+  .man img {
+    width: 640px;
+    height: 866px;
+    flex-grow: 0;
+    border-radius: 71px;
+  }
+
+  .tiny{
+    /* display: flex; */
+    width: 372px;
+    height: 89px;
+    /* flex-direction: column; */
+    /* flex-shrink: 0; */
+    /* align-self: stretch; */
+    color: #FF6F5B;
+    font-size: 48px;
+    font-family: Space Mono;
+    font-weight: 700;
+  }
+
+  .welcome{
+    width: 628px;
+    height: 537px;
+    /* flex-direction: column; */
+    /* flex-basis: 100px; */
+    color: #FFF;
+    font-size: 24px;
+    font-family: Space Mono;
+    font-weight: 700;
+    padding: 220px 0;
+  }
+
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  } 
+
+  .man {
+    display: flex;
+
+  }
+
+  .letter{
+    display: flex;
+    width:628px;
+    height: 898px;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .button-learn{
+  border: 5px solid white;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 0;
+  position: relative;
+  top: 100px;
+  /* font-family: 'Space Mono', monospace; */
+  color: #FFF;
+  text-decoration: none;
+}
+
+.rectangle {
+  border: 500px solid white;
+  height: 828px;
+  display: flex;
+  margin: auto;
+}
+.text-box {
+  margin: auto;
+}
+
+.button-BOOK{
+  background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    bottom: -50px;
+    right: -200px;
+}
+
+.text-p{
+  width: 628px; 
+  height: 395px; 
+  font-size: 24px;
+  margin: auto;
+  padding-top: -80px;
+  padding-right: -50px;
+  position: relative;
+  bottom: 100px;
+}
+
+#h-tiny {
+  color:#FF6F5B; 
+  font-size: 96px; 
+  font-family: Space Mono; 
+  font-weight: 700;
+  margin: auto;
+  padding: auto; 
+  position: relative;
+  left: -80px;
+  bottom: 100px;
+}
+
+.group{
+  display: flex;
+  position: relative;
+  top: -300px;
+  right: 300px; 
+  padding: 40px;
+  width: 300em;
+  height: 800px;
+  justify-content: space-evenly;
+}
+
+.story{
+  display: flex;
+  gap: 10px;
+}
+.profile {
+  position: relative;
+  top: 200px;
+  right: 250px;
+  width: 472px;
+  height: 466px;
+  padding: 10px;
+  margin: auto;
+}
+.yt {
+  color: #FF6F5B;
+  font-size: 50px;
+  position: relative;
+  font-weight: 700;
+  height: 128px;
+  left:  590px;
+  top: 50px;
+  white-space: nowrap;
+}
+.text-box-p{
+  display: flex;
+  flex-direction: column;
+  /* border: 8px solid red; */
+  text-align: center;
+  margin: auto;
+  position: relative;
+  bottom: -120px;
+  right: 105px;
+  
+}
+
+.jm {
+  display: inline;
+  flex-direction: column;
+  font-size: 24px;
+  position: relative;
+  /* border: 1px solid yellow; */
+  bottom: -170px;
+  width: 500px;
+  height: 600px;
+}
+.button-follow{
+  border: 5px solid white;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 0;
+  position: relative;
+  top: 100px;
+  /* font-family: 'Space Mono', monospace; */
+  color: #FFF;
+  text-decoration: none;
+}
+
+.rectangle-2{
+  border: 400px solid white;
+  height: 428px;
+  display: flex;
+  margin: auto;
+position: relative;
+top: 300px
+
+}
+
+.card{
+  border: 200px solid black;
+  border-radius: 25px;
+  width: 400px;
+  height: 439px;
+  position: relative;
+  top: -100px;
+}
+.card img{
+  width:300px; 
+  height:200px;
+  position: relative;
+  right: 150px;
+  top: -120px;
+  border-radius: 25px;
+  filter: drop-shadow(3px 3px 15px #fff);
+}
+
+.hotel{
+  font-size: 20px;
+  color: #FFF;
+  position: relative;
+  top: -80px;
+  left: -150px;
+  white-space: nowrap;
+}
+.price{
+  font-size: 20px;
+  color: #FFF;
+  position: relative;
+  top: -80px;
+  left: -150px;
+  white-space: nowrap;
+
+}
+
+.text-hotel {
+  display: flex;
+  align-items: flex-start;
+  gap: 7em;
+}
+
+.price {
+  align-self: flex-end;
+  flex-grow: 2;
+}
+
+.city{
+  position:absolute;
+  top: 170px;
+  right:60px;
+  color: white;
+
+}
+
+.mm{
+  color:#FF6F5B;
+  font-size: 69px;
+}
+
+.rectangle-3{
+  border: 400px solid aqua;
+  height: 428px;
+  display: flex;
+  margin: auto;
+position: relative;
+top: 300px;
+flex-direction: column;
+}
+
+#email {
+  background-color: white;
+  min-width: 200px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+.rectangle-4{
+  border: 150px solid #FF6F5B;
+  height: 228px;
+  
+  margin: auto;
+position: relative;
+top: 300px;
+
+color:#000000;
+text-align: center;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.help{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ad{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+  /* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  } 
